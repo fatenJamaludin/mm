@@ -1,0 +1,6 @@
+plugin:
+    name: 'mesb.announcement::lang.plugin.name'
+    description: 'mesb.announcement::lang.plugin.description'
+    author: Mesb
+    icon: oc-icon-bullhorn
+    homepage: ''

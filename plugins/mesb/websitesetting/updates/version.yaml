@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table mesb_websitesetting_social'
+    - builder_table_create_mesb_websitesetting_social.php

@@ -1,0 +1,11 @@
+name: Announcement
+modelClass: Mesb\Announcement\Models\Announcement
+form: $/mesb/announcement/models/announcement/fields.yaml
+defaultRedirect: mesb/announcement/announcement
+create:
+    redirect: 'mesb/announcement/announcement/update/:id'
+    redirectClose: mesb/announcement/announcement
+update:
+    redirect: mesb/announcement/announcement
+    redirectClose: mesb/announcement/announcement
+preview: {  }

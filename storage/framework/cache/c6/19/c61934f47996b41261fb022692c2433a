@@ -1,0 +1,9 @@
+1470044639a:1:{s:27:"searchresults/thumbnail.htm";a:5:{s:8:"fileName";s:27:"searchresults/thumbnail.htm";s:7:"content";s:170:"<div class="ss-result__aside">
+    <a href="{{ result.url }}">
+        <img class="ss-result__image" src="{{ result.thumb.getThumb(120, auto) }}" alt=""/>
+    </a>
+</div>";s:5:"mtime";i:1469777377;s:6:"markup";s:170:"<div class="ss-result__aside">
+    <a href="{{ result.url }}">
+        <img class="ss-result__image" src="{{ result.thumb.getThumb(120, auto) }}" alt=""/>
+    </a>
+</div>";s:4:"code";N;}}

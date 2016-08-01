@@ -1,0 +1,29 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: left
+        type: text
+    url:
+        label: URL
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    content:
+        label: Content
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    start_date:
+        label: 'Start Date'
+        oc.commentPosition: ''
+        mode: datetime
+        span: left
+        type: datepicker
+    end_date:
+        label: 'End Date'
+        oc.commentPosition: ''
+        mode: datetime
+        span: right
+        type: datepicker

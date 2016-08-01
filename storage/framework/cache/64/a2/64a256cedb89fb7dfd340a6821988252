@@ -1,0 +1,22 @@
+1470044507a:1:{s:25:"searchResults/default.htm";a:5:{s:8:"fileName";s:25:"searchResults/default.htm";s:7:"content";s:324:"{% set results = __SELF__.results %}
+
+{% for result in results %}
+    {# Display all results #}
+    {% partial __SELF__ ~ '::searchresult.htm' result = result %}
+{% else %}
+    {# No results found #}
+    {% partial __SELF__ ~ '::no-results.htm' %}
+{% endfor %}
+
+{% partial __SELF__ ~ '::pagination.htm' results = results %}
+";s:5:"mtime";i:1469777377;s:6:"markup";s:323:"{% set results = __SELF__.results %}
+
+{% for result in results %}
+    {# Display all results #}
+    {% partial __SELF__ ~ '::searchresult.htm' result = result %}
+{% else %}
+    {# No results found #}
+    {% partial __SELF__ ~ '::no-results.htm' %}
+{% endfor %}
+
+{% partial __SELF__ ~ '::pagination.htm' results = results %}";s:4:"code";N;}}

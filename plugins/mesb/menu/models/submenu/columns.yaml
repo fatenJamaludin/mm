@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+    main_menu:
+        label: 'Main menu'
+        type: number
+        searchable: false
+    submenu:
+        label: Submenu
+        type: text
+        searchable: true
+    url:
+        label: URL
+        type: text

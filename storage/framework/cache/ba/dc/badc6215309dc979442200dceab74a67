@@ -1,0 +1,21 @@
+1470044493a:1:{s:11:"account.htm";a:12:{s:8:"fileName";s:11:"account.htm";s:7:"content";s:337:"title = "Account"
+url = "/account/:code?"
+layout = "default"
+description = "Sign in, registration and account management."
+is_hidden = 0
+
+[account]
+redirect = "account"
+paramCode = "code"
+
+[siteSearchInclude]
+==
+{% component 'account' %}
+
+<hr />
+
+<p><a href="{{ 'forgot-password'|page }}">Forgotten your password?</a></p>";s:5:"mtime";i:1469946125;s:6:"markup";s:113:"{% component 'account' %}
+
+<hr />
+
+<p><a href="{{ 'forgot-password'|page }}">Forgotten your password?</a></p>";s:4:"code";N;s:5:"title";s:7:"Account";s:3:"url";s:15:"/account/:code?";s:6:"layout";s:7:"default";s:11:"description";s:45:"Sign in, registration and account management.";s:9:"is_hidden";s:1:"0";s:7:"account";a:2:{s:8:"redirect";s:7:"account";s:9:"paramCode";s:4:"code";}s:17:"siteSearchInclude";a:0:{}}}

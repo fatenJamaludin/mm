@@ -1,0 +1,7 @@
+1470044639a:1:{s:28:"searchresults/pagination.htm";a:5:{s:8:"fileName";s:28:"searchresults/pagination.htm";s:7:"content";s:63:"{% if results.hasPages %}
+    {{ results | raw }}
+{% endif %}
+
+";s:5:"mtime";i:1469777377;s:6:"markup";s:61:"{% if results.hasPages %}
+    {{ results | raw }}
+{% endif %}";s:4:"code";N;}}

@@ -1,0 +1,31 @@
+fields:
+    facebook_url:
+        label: 'Facebook URL'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    instagram_url:
+        label: 'Instagram URL'
+        oc.commentPosition: ''
+        span: right
+        type: text
+    twitter_url:
+        label: 'Twitter URL'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    youtube_url:
+        label: 'YouTube URL'
+        oc.commentPosition: ''
+        span: right
+        type: text
+    google_play:
+        label: 'Google Play URL'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    itunes:
+        label: 'iTunes URL'
+        oc.commentPosition: ''
+        span: right
+        type: text

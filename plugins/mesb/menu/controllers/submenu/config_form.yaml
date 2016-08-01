@@ -1,0 +1,11 @@
+name: Submenu
+modelClass: Mesb\Menu\Models\SubMenu
+form: $/mesb/menu/models/submenu/fields.yaml
+defaultRedirect: mesb/menu/submenu
+create:
+    redirect: 'mesb/menu/submenu/update/:id'
+    redirectClose: mesb/menu/submenu
+update:
+    redirect: mesb/menu/submenu
+    redirectClose: mesb/menu/submenu
+preview: {  }

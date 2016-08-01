@@ -1,0 +1,73 @@
+<div class="container menu">
+    <div class="navbar navbar-static-top" role="navigation">
+        <!--button sm-->
+        <button type="button" class="navbar-toggle hidden-md hidden-lg" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!--end button-->
+
+        <div class="hidden-sm hidden-xs main-navigation" id="myNavbar">
+            <div class="dropdownb">
+            	<ul><a href="#" aria-posinset="1" aria-setsize="4" class="dropbtn" id="aamenu-trigger-3" aria-haspopup="true" aria-expanded="false">Flight</a>
+               	<div class="dropdown-content">
+	                {% for submenu in submenus %}
+                    {% if submenu.main_menu == 'Flight' %}
+	                    <a href="{{submenu.url}}">{{submenu.submenu}}</a>
+                    {% endif %}
+	                {% endfor %}  
+               	</div></ul>
+               	<ul><a href="#" aria-posinset="1" aria-setsize="4" class="dropbtn" id="aamenu-trigger-3" aria-haspopup="true" aria-expanded="false">Firefly Holiday</a>
+               	<div class="dropdown-content">
+	                {% for submenu in submenus %}
+                    {% if submenu.main_menu == 'Firefly Holiday' %}
+	                    <a href="{{submenu.url}}">{{submenu.submenu}}</a>
+                    {% endif %}
+	                {% endfor %}  
+               	</div></ul>
+               	<ul><a href="#" aria-posinset="1" aria-setsize="4" class="dropbtn" id="aamenu-trigger-3" aria-haspopup="true" aria-expanded="false">Insurance</a>
+               	<div class="dropdown-content">
+	                {% for submenu in submenus %}
+	                  {% if submenu.main_menu == 'Insurance' %}
+                      <a href="{{submenu.url}}">{{submenu.submenu}}</a>
+                    {% endif %}
+	                {% endfor %}  
+               	</div></ul>
+               	<ul><a href="#" aria-posinset="1" aria-setsize="4" class="dropbtn" id="aamenu-trigger-3" aria-haspopup="true" aria-expanded="false">Community</a>
+               	<div class="dropdown-content">
+	                {% for submenu in submenus %}
+	                  {% if submenu.main_menu == 'Community' %}
+                      <a href="{{submenu.url}}">{{submenu.submenu}}</a>
+                    {% endif %}
+	                {% endfor %}  
+               	</div></ul>
+                <ul><a href="#" aria-posinset="1" aria-setsize="4" class="dropbtn" id="aamenu-trigger-3" aria-haspopup="true" aria-expanded="false">Bonuslink</a>
+                <div class="dropdown-content">
+                  {% for submenu in submenus %}
+                    {% if submenu.main_menu == 'Bonuslink' %}
+                      <a href="{{submenu.url}}">{{submenu.submenu}}</a>
+                    {% endif %}
+                  {% endfor %}  
+                </div></ul>
+                <ul><a href="#" aria-posinset="1" aria-setsize="4" class="dropbtn" id="aamenu-trigger-3" aria-haspopup="true" aria-expanded="false">eMagazine</a>
+                <div class="dropdown-content">
+                  {% for submenu in submenus %}
+                    {% if submenu.main_menu == 'eMagazine' %}
+                      <a href="{{submenu.url}}">{{submenu.submenu}}</a>
+                    {% endif %}
+                  {% endfor %}  
+                </div></ul>
+                <ul><a href="#" aria-posinset="1" aria-setsize="4" class="dropbtn" id="aamenu-trigger-3" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                <div class="dropdown-content">
+                  {% for submenu in submenus %}
+                    {% if submenu.main_menu == 'Contact Us' %}
+                      <a href="{{submenu.url}}">{{submenu.submenu}}</a>
+                    {% endif %}
+                  {% endfor %}  
+                </div></ul>
+            </div>
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,11 @@
+name: Social
+modelClass: Mesb\WebsiteSetting\Models\Social
+form: $/mesb/websitesetting/models/social/fields.yaml
+defaultRedirect: mesb/websitesetting/social
+create:
+    redirect: 'mesb/websitesetting/social/update/:id'
+    redirectClose: mesb/websitesetting/social
+update:
+    redirect: mesb/websitesetting/social
+    redirectClose: mesb/websitesetting/social
+preview: {  }

@@ -1,0 +1,25 @@
+fields:
+    main_menu:
+        label: 'Main menu'
+        oc.commentPosition: ''
+        span: full
+        type: dropdown
+        options:
+            Flight: 'Flight'
+            Firefly Holiday: 'Firefly Holiday'
+            Insurance: 'Insurance'
+            Community: 'Community'
+            Bonuslink: 'Bonuslink'
+            eMagazine: 'eMagazine'
+            Contact Us: 'Contact Us'
+
+    submenu:
+        label: Submenu
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    url:
+        label: URL
+        oc.commentPosition: ''
+        span: auto
+        type: text

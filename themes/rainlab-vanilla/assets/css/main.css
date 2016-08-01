@@ -1,0 +1,180 @@
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+#wholebody {
+  background-color:white;
+    font-family: "Lato";
+    font-weight: 300%;
+    font-size: 16px;
+    color: #000;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+    width:100px;
+}
+
+.mt {
+	margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: red;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+
+/* 
+	CUSTOM 
+*/
+
+#wholebody {
+	overflow-x: hidden;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+/* nt-example2 */
+
+#nt-example2 {
+	max-width: 100%;
+	margin: auto;
+	
+}
+
+#nt-example2-container {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#nt-example2-infos-container {
+	position: absolute;
+	width: 100%;
+}
+
+#nt-example2-container i {
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#nt-example2-container i:hover {
+	color: #333;
+}
+
+#nt-example2 li {
+	color: #808080;
+	background: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 60px;
+	padding: 10px 16px 10px 16px;
+	line-height: 30px;
+	list-style: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+#nt-example2 li .state {
+	font-size: inherit;
+	margin: 0;
+}
+
+#nt-example2 span.hour {
+	font-weight: 700;
+}
+
+#nt-example2-infos-triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 15px 16px 15px;
+	border-color: transparent transparent #D1C9C4 transparent;
+	margin: 6px auto 0;
+}
+
+#nt-example2-infos {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+	color: #000;
+	background: #D1C9C4;
+	text-align: center;
+}
+
+#data-infos{
+	text-align: center;
+}
+
+#nt-example2-infos .infos-hour {
+	font-size: 50px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+#nt-example2-infos h4 {
+	color: #ffffff;
+	font-weight: 500;
+}
+
+#nt-example2-infos .infos-text {
+	text-align: center;
+	margin-right: 20px;
+}
+
+#fa-fa-exclamation-circle {
+	color:orange;
+}

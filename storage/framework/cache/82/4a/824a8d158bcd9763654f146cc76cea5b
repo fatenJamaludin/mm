@@ -1,0 +1,17 @@
+1470044639a:1:{s:30:"searchresults/searchresult.htm";a:5:{s:8:"fileName";s:30:"searchresults/searchresult.htm";s:7:"content";s:262:"<div class="ss-result">
+    {% if result.thumb %}
+        {% partial __SELF__ ~ '::thumbnail' result = result %}
+    {% endif %}
+    <div class="ss-result__content">
+        {% partial __SELF__ ~ '::content' result = result %}
+    </div>
+    <hr/>
+</div>";s:5:"mtime";i:1469777377;s:6:"markup";s:262:"<div class="ss-result">
+    {% if result.thumb %}
+        {% partial __SELF__ ~ '::thumbnail' result = result %}
+    {% endif %}
+    <div class="ss-result__content">
+        {% partial __SELF__ ~ '::content' result = result %}
+    </div>
+    <hr/>
+</div>";s:4:"code";N;}}

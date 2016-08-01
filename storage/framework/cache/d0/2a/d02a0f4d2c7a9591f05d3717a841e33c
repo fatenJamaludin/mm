@@ -1,0 +1,31 @@
+1470044639a:1:{s:25:"searchresults/content.htm";a:5:{s:8:"fileName";s:25:"searchresults/content.htm";s:7:"content";s:437:"<h4 class="ss-result__title">
+    <a href="{{ result.url }}">{{ result.title | raw }}</a>
+    {% if __SELF__.showProviderBadge %}
+        <span class="ss-result__badge">
+            {{ result.provider }}
+        </span>
+    {% endif %}
+</h4>
+
+<p class="ss-result__text">
+    {{ result.excerpt | raw }}
+</p>
+
+<p class="ss-result__url">
+    <a href="{{ result.url }}" class="ss-result__link">{{ __SELF__.visitPageMessage }} &rarr;</a>
+</p>";s:5:"mtime";i:1469777377;s:6:"markup";s:437:"<h4 class="ss-result__title">
+    <a href="{{ result.url }}">{{ result.title | raw }}</a>
+    {% if __SELF__.showProviderBadge %}
+        <span class="ss-result__badge">
+            {{ result.provider }}
+        </span>
+    {% endif %}
+</h4>
+
+<p class="ss-result__text">
+    {{ result.excerpt | raw }}
+</p>
+
+<p class="ss-result__url">
+    <a href="{{ result.url }}" class="ss-result__link">{{ __SELF__.visitPageMessage }} &rarr;</a>
+</p>";s:4:"code";N;}}

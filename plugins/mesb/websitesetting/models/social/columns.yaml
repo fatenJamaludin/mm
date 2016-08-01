@@ -1,0 +1,25 @@
+columns:
+    facebook_url:
+        label: 'Facebook URL'
+        type: text
+        searchable: true
+    instagram_url:
+        label: 'Instagram URL'
+        type: text
+        searchable: true
+    twitter_url:
+        label: 'Twitter URL'
+        type: text
+        searchable: true
+    youtube_url:
+        label: 'YouTube URL'
+        type: text
+        searchable: true
+    google_play:
+        label: 'Google Play URL'
+        type: text
+        searchable: true
+    itunes:
+        label: iTunes
+        type: text
+        searchable: true

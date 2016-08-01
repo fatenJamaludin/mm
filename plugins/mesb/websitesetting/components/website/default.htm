@@ -1,0 +1,41 @@
+<div class="col-lg-6 col-md-6 mbapps">
+{% for social in socials %}
+  <div class="col-lg-6 col-md-6 mobileapps">
+    <p class="mbp">Mobile App</p>
+    <div class="col-lg-6 col-md-6 android">
+      <a href="{{social.google_play}}">
+        <img src="{{'img/footer/mbapps-android.png'|media}}" class="icon_android" alt="" >
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6 apple">
+      <a href="{{social.itunes}}">
+        <img src="{{'img/footer/mbapps-apple.png'|media}}" class="icon_android" alt="" >
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6 email">
+      <img src="{{'img/footer/mail.png'|media}}" class="icon_mail" alt="" >
+      <p class="pmail">customer_care@fireflyz.com.my</p>
+    </div>
+    <div class="col-lg-6 col-md-6 call">
+      <img src="{{'img/footer/call.png'|media}}" class="icon_mail" alt="" >
+      <p class="pmail">603-7845 4543</p>
+    </div>
+  </div><!--end mobile apps-->
+  
+  <div class="col-lg-6 col-md-6 followus">
+    <p class="pfollowus">Follow Us</p>
+    <a href="{{social.facebook_url}}">
+      <img src="{{'img/footer/social_media/sc-24.png'|media}}" class="socialmedia" alt="" >
+    </a>
+    <a href="{{social.twitter_url}}">
+      <img src="{{'img/footer/social_media/sc-25.png'|media}}" class="socialmedia" alt="" >
+    </a>
+    <a href="{{social.instagram_url}}">
+      <img src="{{'img/footer/social_media/sc-26.png'|media}}" class="socialmedia" alt="" >
+    </a>
+    <a href="{{social.youtube_url}}">
+      <img src="{{'img/footer/social_media/sc-27.png'|media}}" class="socialmedia" alt="" >
+    </a>
+  </div>
+  {% endfor %}
+</div>
